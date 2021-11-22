@@ -1,12 +1,9 @@
-import tw from 'tailwind-styled-components'
+import tw from 'tailwind-styled-components';
 
 export default function Home() {
-  return <div className="">
-
-  </div>;
+  return <Wrapper></Wrapper>;
 }
 
-
 const Wwrapper = tw.div`
-
-`
+flex flex-col bg-red-300 h-screen
+`;
